@@ -1,5 +1,8 @@
 import Head from 'next/head';
 import { HiSparkles } from 'react-icons/hi';
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import Image from "next/image";
+import devellie from "../public/EllieAI.jpg";
 
 export default function Home() {
   return (
@@ -24,12 +27,22 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div>
-            <h2>Ellie Trullinger</h2>
-            <h3>Software Engineer</h3>
-            <p>Software Engineer with 4.5 years of experience working in the tech industry with venture-backed, high-growth startups.</p>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-slate-600 font-medium">
+              Ellie Trullinger
+            </h2>
+            <h3 className="text-2xl py-2">Software Engineer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">Software Engineer with 4.5 years of experience working in the tech industry with venture-backed, high-growth startups.</p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <AiFillLinkedin />
+            <AiFillGithub />
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-slate-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image src={devellie} />
           </div>
         </section>
+
       </main>
     </div>
   );
