@@ -3,6 +3,7 @@ import { HiSparkles } from 'react-icons/hi';
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import devellie from "../public/EllieAI.jpg";
+import tachi from "../public/TachiWallpaper.jpg"
 
 export default function Home() {
   return (
@@ -38,11 +39,58 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-slate-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image src={devellie} />
+          <div className="relative mx-auto bg-gradient-to-b from-slate-500 rounded-full w-80 h-80 mt-10 overflow-hidden shadow-lg shadow-slate-500">
+            <Image src={devellie} alt="" />
           </div>
         </section>
 
+        <section>
+          <div className="text-center">
+            <h3 className="text-3xl py-1 text-gray-700">Portfolio</h3>
+          </div>
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl mb-10">
+              <Image 
+                src={tachi}
+                alt=""
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl mb-10">
+              <Image 
+                src={tachi}
+                alt=""
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl mb-10">
+              <Image 
+                src={tachi}
+                alt=""
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1 shadow-lg p-10 rounded-xl mb-10">
+              <Image 
+                src={tachi}
+                alt=""
+                className="rounded-lg object-cover"
+                width={'100%'}
+                height={'100%'}
+                layout="responsive"
+              />
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
