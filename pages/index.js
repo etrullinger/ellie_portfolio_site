@@ -64,6 +64,29 @@ export default function Home() {
 
         <section className="mt-10">
           <div className="text-center bg-gradient-to-r from-slate-500 to-slate-300 px-4 mb-5 rounded-md">
+            <h3 className="text-3xl py-1 text-gray-700 dark:text-gray-200">Skills</h3>
+          </div>
+          <div className="relative flex overflow-x-hidden">
+            <div className="py-12 animate-marquee whitespace-nowrap">
+              <span className="mx-4">Marquee 1</span>
+              <span className="mx-4">Marquee 2</span>
+              <span className="mx-4">Marquee 3</span>
+              <span className="mx-4">Marquee 4</span>
+              <span className="mx-4">Marquee 5</span>
+            </div>
+
+            <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+              <span className="mx-4">Marquee 1</span>
+              <span className="mx-4">Marquee 2</span>
+              <span className="mx-4">Marquee 3</span>
+              <span className="mx-4">Marquee 4</span>
+              <span className="mx-4">Marquee 5</span>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-10">
+          <div className="text-center bg-gradient-to-r from-slate-500 to-slate-300 px-4 mb-5 rounded-md">
             <h3 className="text-3xl py-1 text-gray-700 dark:text-gray-200">Portfolio</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
