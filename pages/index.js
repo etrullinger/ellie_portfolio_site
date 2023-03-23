@@ -33,7 +33,12 @@ export default function Home() {
                 }
               </li>
               <li>
-                <a className="bg-gradient-to-r from-slate-500 to-slate-300 text-white px-4 rounded-md ml-5" href="#">Resume</a>
+                <a 
+                  className="bg-gradient-to-r from-slate-500 to-slate-300 text-white px-4 rounded-md ml-5"
+                  href="mailto:ellietrullinger@gmail.com"
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </nav>
