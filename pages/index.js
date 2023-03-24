@@ -7,6 +7,19 @@ import trello from "../public/Trell-O.png";
 import pawshop from "../public/PawShop.png";
 import tachigame from "../public/TachiGame.png";
 import bookshelf from "../public/Bookshelf.png";
+import css from "../public/css3Logo.png";
+import express from "../public/expressLogo.png";
+import html from "../public/html5Logo.png";
+import mui from "../public/muiLogo.png";
+import node from "../public/nodeLogo.jpg";
+import postgresql from "../public/postgresqlLogo.png";
+import react from "../public/reactLogo.jpeg";
+import redux from "../public/reduxLogo.jpg";
+import sequelize from "../public/sequelizeLogo.png";
+import socketio from "../public/socketioLogo.png";
+import sql from "../public/sqlLogo.png";
+import tailwind from "../public/tailwindLogo.png";
+import webpack from "../public/webpackLogo.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -67,25 +80,41 @@ export default function Home() {
             <h3 className="text-3xl py-1 text-gray-700 dark:text-gray-200">Skills</h3>
           </div>
           <div className="relative flex overflow-x-hidden">
-            <div className="py-5 animate-marquee whitespace-nowrap">
-              <span className="mx-4">Marquee 1</span>
-              <span className="mx-4">Marquee 2</span>
-              <span className="mx-4">Marquee 3</span>
-              <span className="mx-4">Marquee 4</span>
-              <span className="mx-4">Marquee 5</span>
+            <div className="py-5 flex animate-marquee whitespace-nowrap">
+              <div className="mx-2 w-20"><Image src={express} alt="express_logo" /></div>
+              <div className="mx-2 w-20"><Image src={node} alt="node_logo" /></div>
+              <div className="mx-2 w-20"><Image src={react} alt="react_logo" /></div>
+              <div className="mx-2 w-20"><Image src={redux} alt="redux_logo" /></div>
+              <div className="mx-2 w-20"><Image src={html} alt="html_logo" /></div>
+              <div className="mx-2 w-20"><Image src={css} alt="css_logo" /></div>
+              <div className="mx-2 w-20"><Image src={mui} alt="mui_logo" /></div>
+              <div className="mx-2 w-20"><Image src={sql} alt="sql_logo" /></div>
+              <div className="mx-2 w-20"><Image src={postgresql} alt="postgresql_logo" /></div>
+              <div className="mx-2 w-20"><Image src={sequelize} alt="sequelize_logo" /></div>
+              <div className="mx-2 w-20"><Image src={socketio} alt="socketio_logo" /></div>
+              <div className="mx-2 w-20"><Image src={tailwind} alt="tailwind_logo" /></div>
+              <div className="mx-2 w-20"><Image src={webpack} alt="webpack_logo" /></div>
             </div>
 
-            <div className="absolute top-0 py-5 animate-marquee2 whitespace-nowrap">
-              <span className="mx-4">Marquee 1</span>
-              <span className="mx-4">Marquee 2</span>
-              <span className="mx-4">Marquee 3</span>
-              <span className="mx-4">Marquee 4</span>
-              <span className="mx-4">Marquee 5</span>
+            <div className="absolute top-0 py-5 flex animate-marquee2 whitespace-nowrap">
+              <div className="mx-2 w-20"><Image src={express} alt="express_logo" /></div>
+              <div className="mx-2 w-20"><Image src={node} alt="node_logo" /></div>
+              <div className="mx-2 w-20"><Image src={react} alt="react_logo" /></div>
+              <div className="mx-2 w-20"><Image src={redux} alt="redux_logo" /></div>
+              <div className="mx-2 w-20"><Image src={html} alt="html_logo" /></div>
+              <div className="mx-2 w-20"><Image src={css} alt="css_logo" /></div>
+              <div className="mx-2 w-20"><Image src={mui} alt="mui_logo" /></div>
+              <div className="mx-2 w-20"><Image src={sql} alt="sql_logo" /></div>
+              <div className="mx-2 w-20"><Image src={postgresql} alt="postgresql_logo" /></div>
+              <div className="mx-2 w-20"><Image src={sequelize} alt="sequelize_logo" /></div>
+              <div className="mx-2 w-20"><Image src={socketio} alt="socketio_logo" /></div>
+              <div className="mx-2 w-20"><Image src={tailwind} alt="tailwind_logo" /></div>
+              <div className="mx-2 w-20"><Image src={webpack} alt="webpack_logo" /></div>
             </div>
           </div>
         </section>
 
-        <section className="mt-5">
+        <section className="mt-5redux">
           <div className="text-center bg-gradient-to-r from-slate-500 to-slate-300 px-4 mb-5 rounded-md">
             <h3 className="text-3xl py-1 text-gray-700 dark:text-gray-200">Portfolio</h3>
           </div>
